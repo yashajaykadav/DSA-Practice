@@ -27,7 +27,7 @@ public class ArmStrongNum {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        if(!sc.hasNextInt())return;
+        if(!sc.hasNextInt()){sc.close();return;}
 
         int n = sc.nextInt();
 
