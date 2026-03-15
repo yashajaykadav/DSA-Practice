@@ -7,7 +7,10 @@ public class DuplicateChars {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter string : ");
-        if(!sc.hasNextLine())return;
+        if(!sc.hasNextLine()){
+            sc.close();
+            return;
+        }
 
         String s = sc.nextLine();
 
