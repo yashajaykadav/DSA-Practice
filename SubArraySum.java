@@ -6,7 +6,7 @@ public class SubArraySum {
     static int solve(int[] arr,int k){
         int sum = 0;
 
-        
+        return sum;
     }
 
     public static void main(String[] args) {
