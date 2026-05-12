@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class AddStrings{
     public static String addString(String num1 , String num2){
         int i = num1.length()-1;
@@ -24,8 +26,10 @@ class AddStrings{
     }
     public static void main(String[] args) {
 
-        String num1 = "999";
-        String num2 = "101";
+        Scanner sc = new Scanner(System.in);
+        String num1 = sc.nextLine();
+        String num2 = sc.nextLine();
+        sc.close();
 
         System.out.println( num1 +" + "+num2 + " =  "+addString(num1, num2));
         
